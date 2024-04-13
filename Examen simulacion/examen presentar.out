@@ -1,0 +1,67 @@
+SIMAN Run Controller.
+
+3.1192142 Hours>
+                                      ARENA Simulation Results
+                                                 GOD
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/ 9/2024
+Analyst: GOD                                                         Model revision date: 4/ 9/2024
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .04202     (Insuf)     7.0882E-5 .16813         95    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         95    
+Entity 1.WaitTime                           .99788     (Insuf)    .00000     1.9409         95    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         95    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         95    
+Entity 1.TotalTime                          1.0399     (Insuf)    .00901     2.0186         95    
+Caja de Otras Transacciones.Queue.WaitingT  .00000     (Insuf)    .00000     .00000         45    
+Hold 1.Queue.WaitingTime                        --         --         --         --          0
+Caja de Deposito o Retiro.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         51    
+Process 2.Queue.WaitingTime                     --         --         --         --          0
+Process 1.Queue.WaitingTime                     --         --         --         --          0
+Fila.Queue.WaitingTime                      1.0081     (Insuf)    .00000     1.9851         96    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                57.870     (Insuf)    .00000     133.00     133.00    
+Caja2.NumberBusy                            .54352     (Insuf)    .00000     1.0000     1.0000    
+Caja2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Caja2.Utilization                           .54352     (Insuf)    .00000     1.0000     1.0000    
+Caja1.NumberBusy                            .45648     (Insuf)    .00000     1.0000     .00000    
+Caja1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Caja1.Utilization                           .45648     (Insuf)    .00000     1.0000     .00000    
+Caja de Otras Transacciones.Queue.NumberIn  .00000     (Insuf)    .00000     .00000     .00000    
+Hold 1.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Caja de Deposito o Retiro.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Process 2.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Process 1.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Fila.Queue.NumberInQueue                    56.870     (Insuf)    .00000     132.00     132.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           228.00    
+Entity 1.NumberOut                          95.000    
+Caja2.NumberSeized                          45.000    
+Caja2.ScheduledUtilization                  .54352    
+Caja1.NumberSeized                          51.000    
+Caja1.ScheduledUtilization                  .45648    
+System.NumberOut                            95.000    
+
+
+Simulation run time: 0.87 minutes.
+Simulation run complete.

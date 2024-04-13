@@ -1,0 +1,12 @@
+[RESOURCES]
+Caja2
+Caja1
+[VARIABLES]
+Clientes.NumberOut
+Que transaccion realiza el cliente?.NumberOut True
+Que transaccion realiza el cliente?.NumberOut False
+Caja de Otras Transacciones.NumberOut
+Caja de Deposito o Retiro.NumberOut
+Caja de Deposito o Retiro.NumberIn
+Caja de Otras Transacciones.NumberIn
+Salida.NumberOut
